@@ -17,7 +17,7 @@ export const Nav = () => {
 const NavItem = (props) => {
   const { link,icon } = props;
   return (
-    <li className="text-white mt-4">
+    <li className="text-secondary mt-4">
     <FontAwesomeIcon icon={icon} className="mr-2"/>
       <Link to={link}>{props.children}</Link>
     </li>

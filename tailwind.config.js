@@ -7,9 +7,15 @@ module.exports = {
   theme: {
     extend: {
       colors:{
-        background:'#075985',
-        button:'#1d4ed8'
+        background:'#0a192f',
+        secondary:'#64ffda',
+        content_bg:'#112240',
+        text_primary:'#8892b0',
+        text_secondary:'#ccd6f6'
       },
+      screens:{
+        'lg': '940px',
+      }
     },
   },
   plugins: [],

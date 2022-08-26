@@ -1,11 +1,12 @@
 import * as React from "react";
 import Header from "./header.component";
+import LayoutContent from "./layout-content.component";
 
 const Layout = (props) => {
   return (
     <>
       <Header />
-      {props.children}
+      <LayoutContent>{props.children}</LayoutContent>
     </>
   );
 };
