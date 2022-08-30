@@ -2,6 +2,10 @@ import * as React from "react";
 import { useStaticQuery, graphql } from "gatsby";
 import { StaticImage } from "gatsby-plugin-image";
 
+import { ButtonPrimary } from "./button-primary.component";
+import { ButtonSecondary } from "./button-secondary.component";
+
+
 export const AboutHero = () => {
   const data = useStaticQuery(graphql`
     query AboutQuery {
@@ -23,7 +27,7 @@ export const AboutHero = () => {
       <div class="mb-4 lg:mb-0">
         <h2 className="text-4xl font-bold text-text_secondary mb-2">{name}</h2>
         <h3 className="text-xl font-normal text-secondary mb-4">{role}</h3>
-        <div>
+        <div className="mb-4">
           <p className="text-text_primary">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -33,6 +37,10 @@ export const AboutHero = () => {
             pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
             culpa qui officia deserunt mollit anim id est laborum.
           </p>
+        </div>
+        <div className="flex gap-4">
+            <ButtonPrimary url="/portfolio">View Portfolio</ButtonPrimary>
+            <ButtonSecondary url="/">View Resume</ButtonSecondary>
         </div>
       </div>
 

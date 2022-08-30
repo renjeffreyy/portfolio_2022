@@ -9,6 +9,7 @@ module.exports = {
       colors:{
         background:'#0a192f',
         secondary:'#64ffda',
+        secondary_hover:'rgba(100,255,218,0.1)',
         content_bg:'#112240',
         text_primary:'#8892b0',
         text_secondary:'#ccd6f6'

@@ -19,7 +19,7 @@ const SocialLink = ({socialLink, icon, name}) =>{
     return (
         <li>
         <a href={socialLink} className="text-white w-8 h-8 block" target="_blank" rel="noopener noreferrer">
-            <FontAwesomeIcon className="w-full h-full text-secondary" icon={icon} />
+            <FontAwesomeIcon className="w-full h-full text-text_secondary hover:text-secondary" icon={icon} />
             <p className="sr-only">{name}</p>
         </a>
         </li>

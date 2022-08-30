@@ -63,7 +63,7 @@ const Header = () => {
           <Socials socials={socials} />
           <a
             href={`mailto: ${email}`}
-            className="border-secondary cursor-pointer block px-4 py-2 mt-4 text-center rounded border text-secondary"
+            className="border-secondary cursor-pointer block px-4 py-2 mt-4 text-center rounded border text-secondary hover:bg-secondary_hover"
           >
             Email Me!
           </a>
