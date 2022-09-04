@@ -1,11 +1,28 @@
 {
-    "name":"Jeffrey Ren",
-    "socials":{
-        "github":"https://github.com/renjeffreyy",
-        "instagram":"https://www.instagram.com/jeffrey_codes/",
-        "linkedin":"https://www.linkedin.com/in/ren-jeffrey/"
-    },
-    "short_about":"Hi my name is Jeffrey. I'm a software engineer",
-    "email":"renjeffreyy@gmail.com",
-    "role": "Software Engineer & E-Commerce Specialist"
+  "name": "Jeffrey Ren",
+  "socials": {
+    "github": "https://github.com/renjeffreyy",
+    "instagram": "https://www.instagram.com/jeffrey_codes/",
+    "linkedin": "https://www.linkedin.com/in/ren-jeffrey/"
+  },
+  "short_about": "Hi my name is Jeffrey. I'm a software engineer",
+  "email": "renjeffreyy@gmail.com",
+  "role": "Software Engineer & E-Commerce Specialist",
+  "skill_header": "I Have a Particular Set of Skills",
+  "languages": {
+    "header": "Languages",
+    "description": "Javascript stuff"
+  },
+  "frameworks": {
+    "header": "Frameworks",
+    "description": "Javascript stuff"
+  },
+  "templating": {
+    "header": "Templating",
+    "description": "Javascript stuff"
+  },
+  "seo": {
+    "header": "Website SEO, Performance, and Accessibility",
+    "description": "Javascript stuff"
+  }
 }

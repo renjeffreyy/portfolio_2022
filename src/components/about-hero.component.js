@@ -23,8 +23,8 @@ export const AboutHero = () => {
   const { name, role } = data.allDataJson.edges[0].node;
 
   return (
-    <section className="flex flex-col lg:flex-row lg:gap-8 items-start justify-start">
-      <div class="mb-4 lg:mb-0">
+    <section className="flex flex-col md:flex-row md:gap-8 items-start justify-start">
+      <div className="mb-4 lg:mb-0">
         <h2 className="text-4xl font-bold text-text_secondary mb-2">{name}</h2>
         <h3 className="text-xl font-normal text-secondary mb-4">{role}</h3>
         <div className="mb-4">
@@ -47,12 +47,12 @@ export const AboutHero = () => {
       <StaticImage
         src="../images/looking_up.webp"
         alt="testing"
-        className="max-w-[300px] block mt-4 lg:hidden"
+        className="max-w-[300px] block mt-4 md:hidden"
       />
       <StaticImage
         src="../images/smile.webp"
         alt="testing"
-        className="max-w-[300px] block mt-4 hidden lg:block"
+        className="max-w-[300px] mt-4 hidden md:block"
       />
     </section>
   );

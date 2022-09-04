@@ -15,7 +15,8 @@ module.exports = {
         text_secondary:'#ccd6f6'
       },
       screens:{
-        'lg': '940px',
+        sm: '640px',
+        lg: '940px',
       }
     },
   },
