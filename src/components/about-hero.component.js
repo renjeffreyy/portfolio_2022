@@ -23,7 +23,7 @@ export const AboutHero = () => {
   const { name, role } = data.allDataJson.edges[0].node;
 
   return (
-    <section className="flex flex-col md:flex-row md:gap-8 items-start justify-start">
+    <section className="flex flex-col md:flex-row md:gap-8 items-start justify-start max-w-6xl">
       <div className="mb-4 lg:mb-0">
         <h2 className="text-4xl font-bold text-text_secondary mb-2">{name}</h2>
         <h3 className="text-xl font-normal text-secondary mb-4">{role}</h3>

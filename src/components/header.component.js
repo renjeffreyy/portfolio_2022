@@ -70,7 +70,7 @@ const Header = () => {
 
             <Socials socials={socials} />
           </div>
-          <div className="sm:flex sm:w-full sm:flex-col sm:pl-4 lg:pr-0">
+          <div className="sm:flex sm:w-full sm:flex-col sm:pl-4 lg:pr-0 lg:pl-0">
             <a
               href={`mailto: ${email}`}
               className="border-secondary cursor-pointer px-4 py-2 mt-4 text-center rounded border text-secondary hover:bg-secondary_hover flex items-center justify-center gap-4"
