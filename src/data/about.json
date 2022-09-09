@@ -11,18 +11,24 @@
   "skill_header": "I Have a Particular Set of Skills",
   "languages": {
     "header": "Languages",
-    "description": "Javascript stuff"
+    "description": "Javascript stuff",
+    "skill":["Javascript, TypeScript"]
   },
   "frameworks": {
     "header": "Frameworks",
-    "description": "Javascript stuff"
+    "description": "Javascript stuff",
+    "skill":["React", "Angular", "Alpine", "Gatsby"]
   },
   "templating": {
     "header": "Templating",
-    "description": "Javascript stuff"
+    "description": "Javascript stuff",
+    "skill":["HTML", "Liquid", "Hubl", "Handlebars"]
   },
   "seo": {
     "header": "Website SEO, Performance, and Accessibility",
     "description": "Javascript stuff"
+  },
+  "styles":{
+    "header":"Styles"
   }
 }
