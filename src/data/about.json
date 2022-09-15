@@ -7,28 +7,31 @@
   },
   "short_about": "Hi my name is Jeffrey. I'm a software engineer",
   "email": "renjeffreyy@gmail.com",
+  "resume":"https://drive.google.com/file/d/1ldToECMx7hUN8YedKz7WjYVourQWOdnB/view?usp=sharing",
   "role": "Software Engineer & E-Commerce Specialist",
   "skill_header": "I Have a Particular Set of Skills",
   "languages": {
     "header": "Languages",
-    "description": "Javascript stuff",
-    "skill":["Javascript, TypeScript"]
+    "skill":["Javascript", "TypeScript"]
   },
   "frameworks": {
     "header": "Frameworks",
-    "description": "Javascript stuff",
-    "skill":["React", "Angular", "Alpine", "Gatsby"]
+    "skill":["React", "Angular", "Alpine", "Gatsby", "Ionic"]
   },
   "templating": {
     "header": "Templating",
-    "description": "Javascript stuff",
-    "skill":["HTML", "Liquid", "Hubl", "Handlebars"]
+    "skill":["HTML", "Liquid", "Hubl"]
   },
   "seo": {
-    "header": "Website SEO, Performance, and Accessibility",
-    "description": "Javascript stuff"
+    "header": "Site Performance",
+    "skill":["Web Vitals", "Seo", "Accessibility"]
   },
   "styles":{
-    "header":"Styles"
+    "header":"Styling",
+    "skill":["CSS", "SASS", "Tailwind", "Bootstrap"]
+  },
+  "backend":{
+    "header":"Backend",
+    "skill":["Nodejs", "Express", "MongoDb", "GraphQL"]
   }
 }

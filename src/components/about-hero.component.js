@@ -14,13 +14,14 @@ export const AboutHero = () => {
           node {
             name
             role
+            resume
           }
         }
       }
     }
   `);
 
-  const { name, role } = data.allDataJson.edges[0].node;
+  const { name, role, resume } = data.allDataJson.edges[0].node;
 
   return (
     <section className="flex flex-col md:flex-row md:gap-8 items-start justify-start max-w-6xl">
@@ -40,7 +41,7 @@ export const AboutHero = () => {
         </div>
         <div className="flex gap-4">
             <ButtonPrimary url="/portfolio">View Portfolio</ButtonPrimary>
-            <ButtonSecondary url="/">View Resume</ButtonSecondary>
+            <ButtonSecondary target="_blank" url={ resume }>View Resume</ButtonSecondary>
         </div>
       </div>
 
