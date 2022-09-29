@@ -58,7 +58,7 @@ const Header = () => {
               : "sm:flex max-h-0 overflow-hidden transition-all duration-500 lg:max-h-[unset] lg:flex-col"
           }
         >
-          <div className="sm:flex-col sm:pr-4 sm:border-r-2 border-text_primary lg:border-0 lg:pr-0">
+          <div className="rounded-full sm:flex-col sm:pr-4 sm:border-r-2 border-text_primary lg:border-0 lg:pr-0">
             <StaticImage
               src="../images/profile.webp"
               alt="testing"
