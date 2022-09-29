@@ -47,7 +47,7 @@ export const AboutHero = () => {
       <StaticImage
         src="../images/looking_up.webp"
         alt="testing"
-        className="max-w-[300px] block mt-4 md:hidden"
+        className="max-w-[300px] block mt-4 md:!hidden"
       />
       <StaticImage
         src="../images/smile.webp"
