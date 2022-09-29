@@ -13,15 +13,17 @@ export const AboutHero = () => {
         edges {
           node {
             name
+            about
             role
             resume
+            quote
           }
         }
       }
     }
   `);
 
-  const { name, role, resume } = data.allDataJson.edges[0].node;
+  const { name, role, resume, about, quote } = data.allDataJson.edges[0].node;
 
   return (
     <section className="flex flex-col md:flex-row md:gap-8 items-start justify-start max-w-6xl">
@@ -29,14 +31,11 @@ export const AboutHero = () => {
         <h2 className="text-4xl font-bold text-text_secondary mb-2">{name}</h2>
         <h3 className="text-xl font-normal text-secondary mb-4">{role}</h3>
         <div className="mb-4">
+          <p className="text-text_primary mb-3">
+            { about }
+          </p>
           <p className="text-text_primary">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            { quote }
           </p>
         </div>
         <div className="flex gap-4">

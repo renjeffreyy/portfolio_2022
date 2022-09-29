@@ -17,6 +17,7 @@
   "dependencies": {
     "@react-icons/all-files": "^4.1.0",
     "gatsby": "^4.20.0",
+    "gatsby-plugin-html-attributes": "^1.0.5",
     "gatsby-plugin-image": "^2.21.0",
     "gatsby-plugin-manifest": "^4.20.0",
     "gatsby-plugin-sharp": "^4.21.0",

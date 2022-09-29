@@ -10,6 +10,8 @@
   "resume":"https://drive.google.com/file/d/1ldToECMx7hUN8YedKz7WjYVourQWOdnB/view?usp=sharing",
   "role": "Software Engineer & E-Commerce Specialist",
   "skill_header": "I Have a Particular Set of Skills",
+  "about":"Hello! My name is Jeffrey Ren and I am a software engineer! I specialize in building responsive, accessible and fun applications. In my free time I like to play with my cats, walk around Target and Lift weights at the gym!",
+  "quote":"Nothing is hard, just a lot of hard work!",
   "languages": {
     "header": "Languages",
     "skill":["Javascript", "TypeScript"]

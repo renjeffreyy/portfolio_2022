@@ -18,7 +18,7 @@ const IndexPage = () => {
 };
 
 export const Head = () => {
-  return <Seo />;
+  return <Seo title="Jeffrey Ren's Porfolio" />;
 };
 
 export default IndexPage;

@@ -3,7 +3,7 @@ module.exports = {
     title: `Jeffrey Ren's portfolio_2022`,
     siteUrl: `https://www.https://jeffreyren.com`,
     description: `Portfolio for Jeffrey Ren. Jeffrey is a FullStack Developer specializing in acceessible E-commerce Solutions`,
-    image: `/gatsby-icon.png`,
+    image: `./src/images/smile.webp`,
   },
   plugins: [
     "gatsby-plugin-postcss",
@@ -13,7 +13,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-manifest",
       options: {
-        icon: "src/images/icon.png",
+        icon: "src/images/code.png",
       },
     },
     "gatsby-plugin-sharp",
@@ -42,5 +42,11 @@ module.exports = {
         },
       },
     },
+    {
+      resolve: 'gatsby-plugin-html-attributes',
+      options: {
+        lang: 'en'
+      }
+    }
   ],
 };
