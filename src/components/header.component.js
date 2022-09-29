@@ -62,7 +62,7 @@ const Header = () => {
             <StaticImage
               src="../images/profile.webp"
               alt="testing"
-              className="rounded-full max-w-[160px] mx-auto block mt-4"
+              className="rounded-full max-w-[160px] mx-auto !block mt-4"
             />
             <p className="text-text_secondary text-sm text-center mt-4">
               {short_about}
