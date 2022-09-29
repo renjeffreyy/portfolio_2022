@@ -52,7 +52,7 @@ export const AboutHero = () => {
       <StaticImage
         src="../images/smile.webp"
         alt="testing"
-        className="max-w-[300px] mt-4 hidden md:block"
+        className="max-w-[300px] mt-4 !hidden !md:block"
       />
     </section>
   );
