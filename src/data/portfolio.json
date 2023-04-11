@@ -1,0 +1,38 @@
+{
+    "projects":[
+        {
+            "name":"Project 1",
+            "description":"This is a description of project 1",
+            "status":"finished",
+            "stack":[
+                {
+                    "name":"Task 1",
+                    "description":"This is a description of task 1",
+                    "status":"in progress"
+                },
+                {
+                    "name":"Task 2",
+                    "description":"This is a description of task 2",
+                    "status":"in progress"
+                }
+            ]
+        },
+        {
+            "name":"Project 2",
+            "description":"This is a description of project 2",
+            "status":"finished",
+            "stack":[
+                {
+                    "name":"Task 1",
+                    "description":"This is a description of task 1",
+                    "status":"in progress"
+                },
+                {
+                    "name":"Task 2",
+                    "description":"This is a description of task 2",
+                    "status":"in progress"
+                }
+            ]
+        }
+    ]
+}

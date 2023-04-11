@@ -1,6 +1,6 @@
 import * as React from "react";
 
-export const SkillCard = ({headerText,description,children}) => {
+export const SkillCard = ({children}) => {
 
     return(
         <article className="p-4 basis-1/2 sm:basis-[24%] lg:basis-[30%] bg-background rounded flex-grow">
