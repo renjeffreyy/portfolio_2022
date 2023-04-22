@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Jeffrey Ren's portfolio_2022`,
+    title: `Jeffrey Ren Full Stack Developer`,
     siteUrl: `https://www.https://jeffreyren.com`,
-    description: `Portfolio for Jeffrey Ren. Jeffrey is a FullStack Developer specializing in acceessible E-commerce Solutions`,
+    description: `Jeffrey Ren is a FullStack Developer specializing in acceessible E-commerce Solutions`,
     image: `./src/images/smile.webp`,
   },
   plugins: [
